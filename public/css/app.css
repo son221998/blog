@@ -1,0 +1,367 @@
+div {
+    display:block;
+}
+.sidebar {
+    min-height: 100vh;
+    height: auto;
+}
+.info-box {
+    box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+    border-radius: 0.25rem;
+    background-color: #fff;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1rem;
+    min-height: 80px;
+    padding: 0.5rem;
+    position: relative;
+    width: 100%;
+}
+.info-box .info-box-icon {
+    border-radius: 0.25rem;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.875rem;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    width: 70px;
+}
+.info-box .info-box-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: 1.8;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.info-box .info-box-text, .info-box .progress-description {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.info-box .info-box-number {
+    display: block;
+    margin-top: 0.25rem;
+    font-weight: 700;
+}
+.post-img {
+    height: 500px;
+}
+.post-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.post-image {
+    width: 250;
+    height: 250;
+    margin: 15px;
+}
+.post .post-category {
+    background: palegoldenrod;
+    padding: 6px 12px;
+    margin: 0;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000 ;
+}
+.post .post-date {
+    padding: 0;
+    margin: 0 0 0 24px;
+}
+.post-content {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.contact {
+        padding: 0 0 1px;
+        width: 1150px;
+        margin: 0 auto;
+        box-sizing: border-box;
+}
+.contact-wrapper {
+    padding: 20px;
+    margin-bottom: 80px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    background: #F9F9F9;
+
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.contact tr {
+    position: relative;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+.contact th {
+    background: #F9F9F9;
+    border: 1px solid #D3D3D3;
+    border-right: 0;
+    padding: 15px 30px;
+    text-align: left;
+    font-size: 16px;
+    width: 30%;
+}
+
+td {
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.contact td {
+    padding: 10px;
+    border: 1px solid #D3D3D3;
+    background-color: #F9F9F9;
+    border-left: 0;
+}
+
+.contact td input {
+    background-color: #fff;
+    padding: 8px;
+    margin: 5px;
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #d9d9d9;
+    line-height: 1.2;
+    border-radius: 5px;
+    outline-style: none;
+}
+
+.contact textarea {
+    border: 1px solid #d9d9d9;
+    outline: none;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+
+.contact .btn_submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 0;
+}
+
+.contact .btn_submit input {
+    background: #0d6efd;
+    width: 220px;
+    height: 60px;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 24px;
+    cursor: pointer;
+    border: 0;
+}
+
+.message {
+    padding: 0 0 1px;
+    width: 1150px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.message td {
+    padding: 10px;
+    background-color: #F9F9F9;
+}
+.contact tr {
+    position: relative;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+.form-signup {
+    position: absolute;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #f5f5f5;
+}
+.forms.show-signup .form.signup{
+    opacity: 1;
+    pointer-events: auto;
+}
+.forms.show-signup .form.login{
+    opacity: 0;
+    pointer-events: none;
+}
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+
+.form-signup .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.field input,
+.field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid#CACACA;
+}
+.field input:focus{
+    border-bottom-width: 2px;
+}
+.eye-icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+.field button{
+    color: #fff;
+    background-color: #0171d3;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.field button:hover{
+    background-color: #016dcb;
+}
+.form-link{
+    text-align: center;
+    margin-top: 25px;
+}
+.form-link span,
+.form-link a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+.form a{
+    color: #0171d3;
+    text-decoration: none;
+}
+.form-content a:hover{
+    text-decoration: underline;
+}
+
+.form-login {
+    position: absolute;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #f5f5f5;
+}
+.form-login .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.field input,
+.field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid#CACACA;
+}
+.field input:focus{
+    border-bottom-width: 2px;
+}
+.eye-icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+.field button{
+    color: #fff;
+    background-color: #0171d3;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.field button:hover{
+    background-color: #016dcb;
+}
+.form-link{
+    text-align: center;
+    margin-top: 25px;
+}
+.form-link span,
+.form-link a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+.form a{
+    color: #0171d3;
+    text-decoration: none;
+}
+.form-content a:hover{
+    text-decoration: underline;
+}
+

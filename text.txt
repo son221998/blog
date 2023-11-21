@@ -1,0 +1,11 @@
+- resources
+-- views
+--- layouts
+------- default.blade.php
+--- pages
+------- home.blade.php
+------- contact.blade.php
+--- includes
+------- head.blade.php
+------- header.blade.php
+------- footer.blade.php
